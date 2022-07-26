@@ -1,9 +1,5 @@
 title: Sarah's VB.NET Playground
-plan:
-  - title: Welcome
-    statement: Basics
-
-  - title: Hello World!
+plan: Hello World!
 ```vb.net runnable
 Imports System
 
