@@ -83,7 +83,21 @@ Public Module modmain
    End Sub
 End Module
 ```
+FOR
 
+```vb.net runnable
+Imports System
+
+Public Module modmain
+   Sub Main()
+        DIM NUMBER AS INTEGER: NUMBER = 10
+        FOR COUNTER AS INTEGER = 0 TO NUMBER
+            Console.WriteLine ("COUNTING - " & COUNTER)
+            COUNTER = COUNTER + 1
+        NEXT
+   End Sub
+End Module
+```
 
 
 # Advanced usage
