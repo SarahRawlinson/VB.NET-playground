@@ -75,8 +75,8 @@ Imports System
 Public Module modmain
    Sub Main()
         DIM NUMBER AS INTEGER: NUMBER = 10
-        DIM COUNTER AS INTEGER: COUNTER = 0
-        WHILE COUNTER < NUMBER
+        DIM COUNTER AS INTEGER: COUNTER = 1
+        WHILE COUNTER <= NUMBER
             Console.WriteLine ("COUNTING - " & COUNTER)
             COUNTER = COUNTER + 1
         END WHILE
@@ -91,9 +91,24 @@ Imports System
 Public Module modmain
    Sub Main()
         DIM NUMBER AS INTEGER: NUMBER = 10
-        FOR COUNTER AS INTEGER = 0 TO NUMBER
+        FOR COUNTER AS INTEGER = 1 TO NUMBER STEP 1 'STEP 1 IS NOT NEEDED
             Console.WriteLine ("COUNTING - " & COUNTER)
         NEXT
+   End Sub
+End Module
+```
+
+FOR EACH
+
+```vb.net runnable
+Imports System
+
+Public Module modmain
+   Sub Main()
+        DIM NUMBERS(10) AS INTEGER: NUMBERS = NEW INTEGER() {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+        FOR EACH I AS INTEGER IN NUMBERS()
+            Console.WriteLine ("COUNTING - " & I)
+        NEXT 
    End Sub
 End Module
 ```
