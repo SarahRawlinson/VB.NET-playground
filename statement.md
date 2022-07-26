@@ -106,7 +106,7 @@ Imports System
 Public Module modmain
    Sub Main()
         DIM NUMBERS(10) AS INTEGER: NUMBERS = NEW INTEGER() {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-        FOR EACH I AS INTEGER IN NUMBERS()
+        FOR EACH I AS INTEGER IN NUMBERS
             Console.WriteLine ("COUNTING - " & I)
         NEXT 
    End Sub
