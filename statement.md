@@ -41,6 +41,32 @@ Public Module modmain
 End Module
 ```
 
+SELECT CASE
+
+```vb.net runnable
+Imports System
+
+Public Module modmain
+   Sub Main()
+
+        DIM VALUE AS STRING: VALUE = "RED"
+        SELECT CASE VALUE
+            CASE "GREEN"
+                Console.WriteLine ("VALUE IS GREEN")
+            CASE "YELLOW"
+                Console.WriteLine ("VALUE IS YELLOW")
+            CASE "RED"
+                Console.WriteLine ("VALUE IS RED")
+            CASE "BLUE"
+                Console.WriteLine ("VALUE IS BLUE")
+            CASE ELSE
+                Console.WriteLine ("VALUE NOT THE DEFAULT COLOUR")
+        END SELECT
+        
+   End Sub
+End Module
+```
+
 
 
 # Advanced usage
