@@ -17,8 +17,26 @@ Imports System
 Public Module modmain
    Sub Main()
 
-        IF (TRUE) THEN
-            Console.WriteLine ("Hello World!")
+        DIM CONDITION AS BOOLEAN: CONDITION = TRUE
+        IF (CONDITION) THEN
+            Console.WriteLine ("THIS IS " & CONDITION)
+        END IF
+   End Sub
+End Module
+```
+ELSE
+
+```vb.net runnable
+Imports System
+
+Public Module modmain
+   Sub Main()
+
+        DIM CONDITION AS BOOLEAN: CONDITION = TRUE
+        IF (CONDITION) THEN
+            Console.WriteLine ("THIS IS " & CONDITION)
+        ELSE
+            Console.WriteLine ("THIS IS " & NOT CONDITION)
         END IF
    End Sub
 End Module
