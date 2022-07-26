@@ -36,7 +36,7 @@ Public Module modmain
         IF (CONDITION) THEN
             Console.WriteLine ("THIS IS " & CONDITION)
         ELSE
-            Console.WriteLine ("THIS IS " & NOT CONDITION)
+            Console.WriteLine ("THIS IS " & (CONDITION = TRUE))
         END IF
    End Sub
 End Module
