@@ -1,4 +1,8 @@
-# Welcome!
+title: Sarah's VB.NET Playground
+plan:
+  - title: Welcome
+    statement: markdowns/welcome.md
+
 
 This VB.NET template lets you get started quickly with a simple one-page playground.
 
