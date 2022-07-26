@@ -1,5 +1,4 @@
-Sarah's VB.NET Playground
--Hello World!
+Hello World!
 ```vb.net runnable
 Imports System
 
