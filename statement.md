@@ -93,7 +93,6 @@ Public Module modmain
         DIM NUMBER AS INTEGER: NUMBER = 10
         FOR COUNTER AS INTEGER = 0 TO NUMBER
             Console.WriteLine ("COUNTING - " & COUNTER)
-            COUNTER = COUNTER + 1
         NEXT
    End Sub
 End Module
