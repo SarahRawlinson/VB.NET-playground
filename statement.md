@@ -79,7 +79,7 @@ Public Module modmain
         WHILE COUNTER < NUMBER
             Console.WriteLine ("COUNTING - " & COUNTER)
             COUNTER = COUNTER + 1
-        LOOP
+        END WHILE
    End Sub
 End Module
 ```
