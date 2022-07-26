@@ -74,8 +74,8 @@ Imports System
 
 Public Module modmain
    Sub Main()
-        DIM NUMBER AS INTERGER: NUMBER = 10
-        DIM COUNTER AS INTERGER: COUNTER = 0
+        DIM NUMBER AS INTEGER: NUMBER = 10
+        DIM COUNTER AS INTEGER: COUNTER = 0
         WHILE COUNTER < NUMBER
             Console.WriteLine ("COUNTING - " & COUNTER)
             COUNTER = COUNTER + 1
