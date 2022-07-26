@@ -112,6 +112,19 @@ Public Module modmain
    End Sub
 End Module
 ```
+FOR EACH
+
+```vb.net runnable
+Imports System
+
+Public Module modmain
+   Sub Main()
+        DIM NUMBERS(10) AS INTEGER: NUMBERS = NEW INTEGER() {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+        FOR EACH I AS INTEGER IN NUMBERS()
+            Console.WriteLine ("COUNTING - " & I)
+        NEXT 
+   End Sub
+End Module
 
 
 # Advanced usage
