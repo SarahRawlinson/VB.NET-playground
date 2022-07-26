@@ -1,4 +1,4 @@
-Hello World!
+HELLO WORLD
 ```vb.net runnable
 Imports System
 
@@ -17,7 +17,7 @@ Public Module modmain
    Sub Main()
 
         DIM CONDITION AS BOOLEAN: CONDITION = TRUE
-        IF (CONDITION) THEN
+        IF CONDITION THEN
             Console.WriteLine ("THIS IS " & CONDITION)
         END IF
    End Sub
@@ -32,7 +32,7 @@ Public Module modmain
    Sub Main()
 
         DIM CONDITION AS BOOLEAN: CONDITION = TRUE
-        IF (CONDITION) THEN
+        IF CONDITION THEN
             Console.WriteLine ("THIS IS " & CONDITION)
         ELSE
             Console.WriteLine ("THIS IS " & (CONDITION = TRUE))
@@ -63,6 +63,23 @@ Public Module modmain
                 Console.WriteLine ("VALUE NOT THE DEFAULT COLOUR")
         END SELECT
         
+   End Sub
+End Module
+```
+
+WHILE
+
+```vb.net runnable
+Imports System
+
+Public Module modmain
+   Sub Main()
+        DIM NUMBER AS INTERGER: NUMBER = 10
+        DIM COUNTER AS INTERGER: COUNTER = 0
+        WHILE COUNTER < NUMBER
+            Console.WriteLine ("COUNTING - " & COUNTER)
+            COUNTER = COUNTER + 1
+        LOOP
    End Sub
 End Module
 ```
