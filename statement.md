@@ -1,11 +1,9 @@
 title: Sarah's VB.NET Playground
 plan:
   - title: Welcome
-    statement: markdowns/welcome.md
+    statement: Basics
 
-
-This VB.NET template lets you get started quickly with a simple one-page playground.
-
+  - title: Hello World!
 ```vb.net runnable
 Imports System
 
@@ -15,6 +13,22 @@ Public Module modmain
    End Sub
 End Module
 ```
+  - title: IF
+
+```vb.net runnable
+Imports System
+
+Public Module modmain
+   Sub Main()
+
+        IF (TRUE) THEN
+            Console.WriteLine ("Hello World!")
+        END IF
+   End Sub
+End Module
+```
+
+
 
 # Advanced usage
 
