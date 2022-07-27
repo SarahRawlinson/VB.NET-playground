@@ -24,7 +24,7 @@ Public Module modmain
 End Module
 ```
 
-?[What is 'CONDITION' variable in above code?]
+?[What is the variable 'CONDITION' in the code above?]
 -[ ] Integer
 -[ ] Double
 -[x] Boolean
