@@ -23,6 +23,14 @@ Public Module modmain
    End Sub
 End Module
 ```
+
+?[What is Condition in above code?]
+-[ ] Integer
+-[ ] Double
+-[x] Boolean
+-[ ] Long
+
+
 ELSE
 
 ```vb.net runnable
