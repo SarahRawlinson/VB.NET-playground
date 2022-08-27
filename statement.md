@@ -1,5 +1,5 @@
 
-[**GitHub**](https://github.com/SarahRawlinson)
+[**GitHub**](https://github.com/SarahRawlinson):sparkles:
 
 ---
 HELLO WORLD
