@@ -1,4 +1,4 @@
-# h1 **Find my other projects on**
+# **Find my other projects on**
 * [**GitHub**](https://github.com/SarahRawlinson) <br>
 * [**itch.io**](https://sarahrawlinson.itch.io) <br>
 * [**YouTube**](https://www.youtube.com/channel/UCZzctauCe1sxTTCsK93Tlmw) <br>
