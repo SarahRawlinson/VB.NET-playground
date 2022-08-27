@@ -1,5 +1,7 @@
 
 [**GitHub**](https://github.com/SarahRawlinson)
+[**itch.io**](https://sarahrawlinson.itch.io)
+[**YouTube**](https://www.youtube.com/channel/UCZzctauCe1sxTTCsK93Tlmw)
 
 ---
 HELLO WORLD
