@@ -1,7 +1,7 @@
-
-[**GitHub**](https://github.com/SarahRawlinson)
-[**itch.io**](https://sarahrawlinson.itch.io)
-[**YouTube**](https://www.youtube.com/channel/UCZzctauCe1sxTTCsK93Tlmw)
+**Find my other work on**
+* [**GitHub**](https://github.com/SarahRawlinson) <br>
+* [**itch.io**](https://sarahrawlinson.itch.io) <br>
+* [**YouTube**](https://www.youtube.com/channel/UCZzctauCe1sxTTCsK93Tlmw) <br>
 
 ---
 HELLO WORLD
