@@ -93,7 +93,7 @@ Public Module modmain
         WHILE COUNTER <= NUMBER
             Console.WriteLine ("COUNTING - " & COUNTER)
             COUNTER = COUNTER + 1
-        END WHILE 'in VBA this should be 'WEND' insted of 'End While'
+        END WHILE 'in VBA this should be 'WEND' instead of 'End While'
    End Sub
 End Module
 ```
