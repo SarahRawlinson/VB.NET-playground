@@ -4,7 +4,13 @@
 ## - [**YouTube**](https://www.youtube.com/channel/UCZzctauCe1sxTTCsK93Tlmw) <br>
 
 
-### VB.NET / VBA Basics
+### VB.NET / VBA Basics <br>
+
+VB.NET & VBA are case insensitive meaning you can write functions & variables in lower case or upper case. <br>
+
+This means if we create a variable 'dim i as integer' we can also refer to this variable as 'I'.<br>
+
+VB.NET & VBA are similar but not the same, read more about the differences [here](http://www.differencebetween.net/technology/software-technology/difference-between-vb-and-vba/#:~:text=The%20main%20difference%20is%20that,requires%20an%20interpreter%20to%20execute.)<br>
 ---
 HELLO WORLD
 ```vb.net runnable
@@ -12,7 +18,7 @@ Imports System
 
 Public Module modmain
    Sub Main()
-     Console.WriteLine ("Hello World!")
+     Console.WriteLine ("Hello World!") 'In VBA you can use 'Debug.Print()' instead of 'Console.WriteLine'
    End Sub
 End Module
 ```
